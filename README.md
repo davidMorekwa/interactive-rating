@@ -13,7 +13,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
 
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
@@ -37,8 +36,7 @@ Screenshot2
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://davidmorekwa-interactive-rating.netlify.app/)
+- Live Site URL: [Netlify](https://davidmorekwa-interactive-rating.netlify.app/)
 
 ## My process
 
@@ -64,11 +62,3 @@ In future, I'd like to focus on developing my javascript skills that would enabl
 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/) - This website mostly helped me with the CSS problems that I encountered when doing the challenge.
 - [W3Schools](https://www.w3schools.com/) - This website enabled me to resolve the javascript and also the CSS challenges I encountered.
-
-
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
