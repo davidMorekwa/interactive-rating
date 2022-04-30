@@ -55,13 +55,6 @@ Screenshot2
 Doing this challenge was a great opportunity for me to learn how to integrate javascript onto a webpage to make it interactive. The highlight of doing the challenge I would say was learning about the ".innerHTML" and ".style.display" oprations that made it possible to manipulate the HTML components. 
 
 
-```js
-document.getElementById("thanks").style.display = "none";
-}
-```
-
-For example, this snippet enabled me to hide screenshot2 when the webpage loaded.
-
 ### Continued development
 
 In future, I'd like to focus on developing my javascript skills that would enable me to create more and even better interactive webpages. 

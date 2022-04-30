@@ -130,6 +130,7 @@ body{
 }
 #thanks{
     display: flex;
+    display: none;
     flex-direction: column;
     background-color: hsl(213, 19%, 18%);
 }

@@ -1,6 +1,4 @@
-window.onload = function(){
-    document.getElementById("thanks").style.display = "none";
-}
+
 
 var rate = null;
 function handleNum(e){
