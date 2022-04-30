@@ -6,9 +6,9 @@ body{
     background-color: hsl(216, 12%, 8%);
 }
 .card{
-    width: 320px;
+    width: 350px;
     height: 360px;
-    margin-top: 10%;
+    margin-top: 15%;
     border-radius: 25px;
     background-color: hsl(213, 19%, 18%);
     padding: 0px 5px 0px 30px;
