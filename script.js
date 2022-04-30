@@ -1,8 +1,7 @@
-
-
 var rate = null;
 function handleNum(e){
     rate = "You have selected "+e+ " out of 5";
+    document.getElementsByClassName('numValue').style.background = "red";
 }
 function submission(){
     document.getElementById("ratingText").innerHTML = rate;

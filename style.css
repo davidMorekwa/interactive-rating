@@ -34,84 +34,29 @@ body{
     color: hsl(217, 12%, 63%);
 }
 .numbers{
-    margin-right: 15px;
-    height: 43px;
+    max-width: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.numbers #num1{
-    border: none;
-    padding: 15px 20px 30px 20px;
-    border-radius: 50px;
-    background-color: hsl(213, 17%, 25%);
+.numValue{
+    background-color: hsl(215, 13%, 25%);
+    height: 47px;
+    width: 47px;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    cursor: pointer;
     color: hsl(217, 12%, 63%);
 }
-.numbers #num2{
-    border: none;
-    padding: 15px 20px 30px 20px;
-    border-radius: 50px;
-    background-color: hsl(213, 17%, 25%);
-    color: hsl(217, 12%, 63%);
-}
-.numbers #num3{
-    border: none;
-    padding: 15px 20px 30px 20px;
-    border-radius: 50px;
-    background-color: hsl(213, 17%, 25%);
-    color: hsl(217, 12%, 63%);
-}
-.numbers #num4{
-    border: none;
-    padding: 15px 20px 30px 20px;
-    border-radius: 50px;
-    background-color: hsl(213, 17%, 25%);
-    color: hsl(217, 12%, 63%);
-}
-.numbers #num5{
-    border: none;
-    padding: 15px 20px 30px 20px;
-    border-radius: 50px;
-    background-color: hsl(213, 17%, 25%);
-    color: hsl(217, 12%, 63%);
-}
-.numbers #num5:visited{
-    background-color: hsl(217, 12%, 63%);
-}
-.numbers #num1:hover{
+.numValue:hover{
     background-color: hsl(25, 97%, 53%);
-    color:hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
 }
-.numbers #num2:hover{
-    background-color: hsl(25, 97%, 53%);
-    color:hsl(0, 0%, 100%);
-}
-.numbers #num3:hover{
-    background-color: hsl(25, 97%, 53%);
-    color:hsl(0, 0%, 100%);
-}
-.numbers #num4:hover{
-    background-color: hsl(25, 97%, 53%);
-    color:hsl(0, 0%, 100%);
-}
-.numbers #num5:hover{
-    background-color: hsl(25, 97%, 53%);
-    color:hsl(0, 0%, 100%);
-}
-.numbers #num1:active{
-    background-color: hsl(217, 12%, 63%);
-}
-.numbers #num2:active{
-    background-color: hsl(217, 12%, 63%);
-}
-.numbers #num3:active{
-    background-color: hsl(217, 12%, 63%);
-}
-.numbers #num4:active{
-    background-color: hsl(217, 12%, 63%);
-}
-.numbers #num5:active{
-    background-color: hsl(217, 12%, 63%);
+.numValue input:checked + label{
+    background-color: hsl(215, 13%, 25%);
+    color: hsl(0, 0%, 100%);
 }
 #button{
     margin-top: 35px;

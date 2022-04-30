@@ -19,13 +19,40 @@
         <p id="p1">How did we do?</p>
         <p id="p2">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
       </div>   
-      <div class="numbers">
-        <button onclick="handleNum(1)" id="num1">1</button>
-        <button onclick="handleNum(2)" id="num2">2</button>
-        <button onclick="handleNum(3)" id="num3">3</button>
-        <button onclick="handleNum(4)" id="num4">4</button>
-        <button onclick="handleNum(5)" id="num5">5</button>
-      </div>
+      <form>
+        <div class="numbers">
+          <div class="numValue">
+            <label for="rateValue">
+              <input onclick="handleNum(1)" value="1" type="radio" name="rateValue" class="radio" hidden>1
+            </label>
+          </div>
+
+          <div class="numValue">
+            <label for="rateValue">
+              <input onclick="handleNum(2)" value="2" type="radio" name="rateValue" class="radio" hidden>2
+            </label>
+          </div>
+
+          <div class="numValue">
+            <label for="rateValue">
+              <input onclick="handleNum(3)" value="3" type="radio" name="rateValue" class="radio" hidden>3
+            </label>
+          </div>
+
+          <div class="numValue">
+            <label for="rateValue">
+              <input onclick="handleNum(4)" value="4" type="radio" name="rateValue" class="radio"hidden>4
+            </label>
+          </div>
+
+          <div class="numValue">
+            <label for="rateValue">
+              <input onclick="handleNum(5)" value="5" type="radio" name="rateValue" class="radio" hidden>5
+            </label>
+          </div>
+          
+        </div>
+      </form>
         <button id="button" type="submit" onclick="submission()">Submit</button>
       
   </div>
