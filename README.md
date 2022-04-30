@@ -38,7 +38,7 @@ Screenshot2
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://davidmorekwa-interactive-rating.netlify.app/)
 
 ## My process
 
@@ -60,7 +60,7 @@ document.getElementById("thanks").style.display = "none";
 }
 ```
 
-For example, this snipped enabled me to hide screenshot2 when the webpage loaded.
+For example, this snippet enabled me to hide screenshot2 when the webpage loaded.
 
 ### Continued development
 
