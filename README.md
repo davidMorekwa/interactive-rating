@@ -38,7 +38,7 @@ Screenshot2
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://davidmorekwa-interactive-rating.netlify.app/)
+- Live Site URL: [Netlify](https://davidmorekwa-interactive-rating.netlify.app/)
 
 ## My process
 
