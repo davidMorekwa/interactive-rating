@@ -141,12 +141,14 @@ body{
     background-color: hsl(213, 19%, 18%);
 }
 #ratingText{
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
     background-color: hsl(213, 17%, 25%);
     color: hsl(25, 97%, 53%);
+    width: auto;
     width: 70%;
-    height: 27px;
+    height: auto;
+    height: 25px;
     margin-left: 25px;
     border-radius: 50px;
     margin-top: 5px;
