@@ -19,41 +19,13 @@
         <p id="p1">How did we do?</p>
         <p id="p2">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
       </div>   
-      
-      <form id="myForm">
-        <div class="numbers">
-
-          <div onclick="handleNum(1)" class="numValue" id="numValue1">
-            <label for="numValue1">
-              <input value="1" type="radio" name="radioNums"   hidden>1
-            </label>
-          </div>
-          <div onclick="handleNum(2)" class="numValue" id="numValue2">
-            <label for="numValue2">
-              <input value="1" type="radio" name="radioNums"   hidden>2
-            </label>
-          </div>
-          <div onclick="handleNum(3)" class="numValue" id="numValue3">
-            <label for="numValue3">
-              <input value="1" type="radio" name="radioNums"   hidden>3
-            </label>
-          </div>
-          <div onclick="handleNum(4)" class="numValue" id="numValue4">
-            <label for="numValue4">
-              <input value="1" type="radio" name="radioNums"   hidden>4
-            </label>
-          </div>
-          <div onclick="handleNum(5)" class="numValue" id="numValue5">
-            <label for="numValue5">
-              <input value="1" type="radio" name="radioNums"   hidden>5
-            </label>
-          </div>
-
-
-        </div>
-
-        
-      </form>
+      <div class="numbers">
+        <button onclick="handleNum(1)" value="1" class="numValue">1</button>
+        <button onclick="handleNum(2)" value="2" class="numValue">2</button>
+        <button onclick="handleNum(3)" value="3" class="numValue">3</button>
+        <button onclick="handleNum(4)" value="4" class="numValue">4</button>
+        <button onclick="handleNum(5)" value="5" class="numValue">5</button>
+      </div>
       <button onclick="submission()" id="button" type="submit">Submit</button>
 
 
