@@ -34,28 +34,26 @@ body{
     color: hsl(217, 12%, 63%);
 }
 .numbers{
-    margin-right: 15px;
-    height: 43px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 89%;
 }
-.numValue{
-    border: none;
-    padding: 15px 20px 30px 20px;
+.numbers .numValue{
     border-radius: 50px;
-    background-color: hsl(213, 17%, 25%);
+    padding: 15px 20px 15px 20px;
+    background-color: hsl(215, 18%, 21%);
     color: hsl(217, 12%, 63%);
 }
-
-.numbers #num5:visited{
-    background-color: hsl(217, 12%, 63%);
-}
-.numValue:hover{
+.numbers .numValue:hover{
     background-color: hsl(25, 97%, 53%);
-    color:hsl(0, 0%, 100%);
     cursor: pointer;
+    color: hsl(0, 0%, 100%);
 }
+
+
+
+
 #button{
     margin-top: 35px;
     width: 95%;
