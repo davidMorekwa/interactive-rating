@@ -4,11 +4,12 @@ body{
     justify-content: center;
     align-items: center;
     background-color: hsl(216, 12%, 8%);
+    min-height: 100vh;
 }
 .card{
     width: 350px;
     height: 360px;
-    margin-top: 15%;
+    /*margin-top: 15%;*/
     border-radius: 25px;
     background-color: hsl(213, 19%, 18%);
     padding: 0px 5px 0px 30px;
@@ -41,16 +42,20 @@ body{
 }
 .numbers .numValue{
     border-radius: 50px;
+    border: none;
     padding: 15px 20px 15px 20px;
     background-color: hsl(215, 18%, 21%);
     color: hsl(217, 12%, 63%);
 }
-.numbers .numValue:hover{
+.numValue:hover{
     background-color: hsl(25, 97%, 53%);
     cursor: pointer;
     color: hsl(0, 0%, 100%);
 }
-
+.numValue:focus{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
 
 
 
